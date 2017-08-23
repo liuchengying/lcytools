@@ -1,0 +1,24 @@
+{
+  "name": "terminal_lcy",
+  "version": "1.0.0",
+  "description": "mac 终端的有趣小项目，在命令行中输出名言、段子、诗歌的小玩意~~~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biezhi/lowb.git"
+  },
+  "keywords": [
+    "lcytool"
+  ],
+  "bin": {
+    "lcytool": "bin/index.js"
+  },
+  "author": "lcy_snail",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
